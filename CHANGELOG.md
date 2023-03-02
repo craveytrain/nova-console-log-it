@@ -1,0 +1,1 @@
+Console-Log-It.novaextension/CHANGELOG.md

@@ -1,0 +1,28 @@
+{
+	"identifier": "com.craveytrain.ConsoleLogIt",
+	"name": "Console Log It",
+	"organization": "Mike Cravey",
+	"description": "Console.logs the selected text",
+	"version": "1.0",
+	"categories": ["commands"],
+
+	"repository": "https://github.com/craveytrain/nova-console-log-it",
+	"bugs": "https://github.com/craveytrain/nova-console-log-it/issues",
+	"license": "MIT",
+
+	"main": "main.js",
+
+	"activationEvents": ["onLanguage:javascript", "onLanguage:typescript"],
+
+	"entitlements": {},
+
+	"commands": {
+		"editor": [
+			{
+				"title": "Console.log It",
+				"command": "console-log-it.logIt",
+				"shortcut": "cmd-shift-L"
+			}
+		]
+	}
+}
